@@ -21,8 +21,8 @@ The application needs to run in a command window with administrative permissions
         
 to directly access the drive itself.
 
-I use it in my home server to spin-down to WDD-Red HDDs. These HDDs are used as mass storage
-for my backups, etc. 
+I am using it in my home server to spin-down two WDD-Red HDDs. These HDDs are used as mass storage
+for backups, etc.
 
 When started without any parameters it will probe all physical drives in 6s intervals. When
 there is still read or write actitivity, the corresponding read or write counters of the OS
