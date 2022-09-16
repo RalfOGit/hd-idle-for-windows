@@ -4,8 +4,8 @@ A port of the hd-idle classic to windows, originally written by Christian Mülle
 The source code looks a bit old fashioned, but I did not want to refactor it according to
 modern taste. There are only two source files:
 
-   hd-idle.cpp
-   getopt.cpp
+    hd-idle.cpp
+    getopt.cpp
 
 The extension is cpp, but it is written in C.
 
