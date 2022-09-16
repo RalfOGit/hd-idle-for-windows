@@ -24,12 +24,15 @@ to directly access the drive itself.
 I am using it in my home server to spin-down two WDD-Red HDDs. These HDDs are used as mass storage
 for backups, etc.
 
+
 When started without any parameters it will probe all physical drives in 6s intervals. When
 there is still read or write actitivity, the corresponding read or write counters of the OS
 will increment. This is an indication that the drive is in use. If there is no drive activity
 for 60s, the drive is spin-down. When the drive is accessed after spin-down, either through 
 windows explorer or some file access, the OS will automatically spin-up the drive. This may 
 take a few seconds, so there is a delay, depending on the spin-up time of the drive.
+
+As always, use it at your own risk.
 
 Hard Disk Idle Spin-Down Utility
 ==============================================================================
