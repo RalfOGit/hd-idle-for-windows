@@ -5,6 +5,7 @@ The source code looks a bit old fashioned, but I did not want to refactor it acc
 modern taste. There are only two source files:
 - hd-idle.cpp
 - getopt.cpp
+
 Their File extensions are cpp, but in fact everything is written in C.
 
 The application needs to run in a command window with administrative permissions, as it uses 
