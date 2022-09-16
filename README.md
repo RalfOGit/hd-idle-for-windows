@@ -22,7 +22,7 @@ The application needs to run in a command window with administrative permissions
 to directly access the drive itself.
 
 I am using it in my home server to spin-down two WDD-Red HDDs. These HDDs are used as mass storage
-for backups, etc.
+for backups, etc. As the server is running 24/7, spinning down the HDDs saves quite some energy.
 
 
 When started without any parameters it will probe all physical drives in 6s intervals. When
