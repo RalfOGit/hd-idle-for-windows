@@ -24,6 +24,9 @@ to directly access the drive itself.
 I am using it in my home server to spin-down two WDD-Red HDDs. These HDDs are used as mass storage
 for backups, etc. As the server is running 24/7, spinning down the HDDs saves quite some energy.
 
+It has been tested to run on:
+- Hyper-V Core host
+- Windows 10
 
 When started without any parameters it will probe all physical drives in 6s intervals. When
 there is still read or write actitivity, the corresponding read or write counters of the OS
