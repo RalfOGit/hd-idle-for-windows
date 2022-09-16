@@ -1,5 +1,5 @@
 # hd-idle-for-windows
-A port of the hd-idle classic to windows, originally written by Christian Müller in 2007.
+A Windows port of the hd-idle classic, originally written by Christian Müller in 2007.
 
 The source code looks a bit old fashioned, but I did not want to refactor it according to
 modern taste. There are only two source files:
@@ -7,7 +7,7 @@ modern taste. There are only two source files:
     hd-idle.cpp
     getopt.cpp
 
-The extension is cpp, but it is written in C.
+File extensions are cpp, but in fact everything is written in C.
 
 The application needs to run in a command window with administrative permissions, as it uses 
 
